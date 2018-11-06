@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
         android:gravity="center"
-        android:text="クーポン画面"
+        android:text="設定画面"
         android:textSize="35sp" />
 
 
@@ -25,8 +25,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#ffffff"
-            android:onClick="onHomeButtonClick"
             android:text="ホーム"
+            android:onClick="onHomeButtonClick"
             android:textSize="13sp" />
 
         <Button
@@ -34,8 +34,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#ffffff"
+            android:onClick="onCouponButtonClick"
             android:text="クーポン"
-            android:textColor="#06a10d"
             android:textSize="13sp" />
 
         <Button
@@ -62,6 +62,7 @@
             android:layout_weight="1"
             android:background="#ffffff"
             android:onClick="onSettingButtonClick"
+            android:textColor="#06a10d"
             android:text="設定"
             android:textSize="13sp" />
 

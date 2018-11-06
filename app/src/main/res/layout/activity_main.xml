@@ -2,47 +2,69 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ededed"
     android:orientation="vertical">
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#fca15d"
-        android:text="ホーム" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="onMenuButtonClick"
-        android:text="メニュー" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="onCouponButtonClick"
-        android:text="クーポン" />
-
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
         android:gravity="center"
         android:text="ホーム画面"
         android:textSize="35sp" />
 
-    <TextView
-        android:id="@+id/Debug1"
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:textSize="35sp" />
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp"
-        android:textSize="35sp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:text="ホーム"
+            android:textColor="#06a10d"
+            android:textSize="13sp" />
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:onClick="onCouponButtonClick"
+            android:text="クーポン"
+            android:textSize="13sp" />
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:onClick="onMenuButtonClick"
+            android:text="メニュー"
+            android:textSize="13sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:onClick="onEventButtonClick"
+            android:text="イベント"
+            android:textSize="13sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:onClick="onSettingButtonClick"
+            android:text="設定"
+            android:textSize="13sp" />
+
+    </LinearLayout>
 
 </LinearLayout>
