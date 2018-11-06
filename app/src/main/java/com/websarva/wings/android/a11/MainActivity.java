@@ -28,12 +28,5 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_coupon);
     }
 
-    public void onEventButtonClick(View view) {
-
-    }
-
-    public void onSettingButtonClick(View view) {
-        setContentView(R.layout.activity_setting);
-    }
 
 }

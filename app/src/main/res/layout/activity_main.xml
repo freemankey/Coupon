@@ -27,7 +27,7 @@
             android:background="#ffffff"
             android:text="ホーム"
             android:textColor="#06a10d"
-            android:textSize="13sp" />
+            android:textSize="20sp" />
 
         <Button
             android:layout_width="wrap_content"
@@ -36,7 +36,7 @@
             android:background="#ffffff"
             android:onClick="onCouponButtonClick"
             android:text="クーポン"
-            android:textSize="13sp" />
+            android:textSize="20sp" />
 
         <Button
             android:layout_width="wrap_content"
@@ -45,25 +45,7 @@
             android:background="#ffffff"
             android:onClick="onMenuButtonClick"
             android:text="メニュー"
-            android:textSize="13sp" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#ffffff"
-            android:onClick="onEventButtonClick"
-            android:text="イベント"
-            android:textSize="13sp" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#ffffff"
-            android:onClick="onSettingButtonClick"
-            android:text="設定"
-            android:textSize="13sp" />
+            android:textSize="20sp" />
 
     </LinearLayout>
 
